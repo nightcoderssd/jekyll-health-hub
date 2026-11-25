@@ -1,0 +1,36 @@
+# Fictional demonstration data. Not real services.
+- name: "Free Walk-In Testing Clinic"
+  category: "Testing"
+  summary: "Confidential testing with same-day results. No appointment or insurance needed."
+  hours: "Mon–Fri, 9 AM–5 PM"
+  phone: "555-0100"
+  languages: ["English", "Spanish"]
+  cost: "Free"
+- name: "Prevention Medication Navigator"
+  category: "Prevention"
+  summary: "A navigator helps you understand prevention options and how to pay for them."
+  hours: "Mon–Thu, 10 AM–6 PM"
+  phone: "555-0101"
+  languages: ["English", "Spanish", "Vietnamese"]
+  cost: "Free"
+- name: "Hepatitis Vaccine Days"
+  category: "Vaccines"
+  summary: "Hepatitis A and B vaccines for adults at community sites."
+  hours: "First Saturday of each month, 9 AM–1 PM"
+  phone: "555-0102"
+  languages: ["English"]
+  cost: "Free or low cost"
+- name: "Peer Support Group"
+  category: "Support"
+  summary: "A private, judgment-free group led by trained peers. Join in person or online."
+  hours: "Wednesdays, 6–7:30 PM"
+  phone: "555-0103"
+  languages: ["English", "Spanish"]
+  cost: "Free"
+- name: "Care Coordination Line"
+  category: "Care"
+  summary: "Help finding a doctor, getting medicine, and keeping appointments."
+  hours: "Every day, 8 AM–8 PM"
+  phone: "555-0104"
+  languages: ["English", "Spanish", "Tagalog"]
+  cost: "Free"

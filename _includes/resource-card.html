@@ -1,0 +1,11 @@
+<li class="card">
+  <h2>{{ include.r.name }}</h2>
+  <p class="tag"><span class="visually-hidden">Category: </span>{{ include.r.category }}</p>
+  <p>{{ include.r.summary }}</p>
+  <dl>
+    <dt>Hours</dt><dd>{{ include.r.hours }}</dd>
+    <dt>Cost</dt><dd>{{ include.r.cost }}</dd>
+    <dt>Languages</dt><dd>{{ include.r.languages | join: ", " }}</dd>
+    <dt>Phone</dt><dd><a href="tel:{{ include.r.phone }}">{{ include.r.phone }}</a> <span class="small">(fictional)</span></dd>
+  </dl>
+</li>

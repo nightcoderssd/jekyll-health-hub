@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+    <nav aria-label="Main">
+      <ul>
+        {% assign pages_nav = "/|Home,/resources/|Find services,/about-testing/|About testing,/privacy/|Your privacy" | split: "," %}
+        {% for item in pages_nav %}
+          {% assign parts = item | split: "|" %}
+          <li><a href="{{ parts[0] | relative_url }}"{% if page.url == parts[0] %} aria-current="page"{% endif %}>{{ parts[1] }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+  <div class="demo-banner" role="note"><div class="wrap"><strong>Demonstration project.</strong> Built by Nightcoders, LLC in November 2026 to show Jekyll, Liquid and accessibility skills. Riverbend County, the services and phone numbers are fictional.</div></div>
+</header>
