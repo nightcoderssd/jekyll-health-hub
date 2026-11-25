@@ -4,4 +4,4 @@ lang: en-US
 baseurl: "/jekyll-health-hub"
 url: ""
 markdown: kramdown
-exclude: [README.md, a11y, screenshots, node_modules, package.json, package-lock.json, scripts]
+exclude: [README.md, LICENSE, Gemfile, a11y, screenshots, node_modules, package.json, package-lock.json, scripts]
